@@ -6,7 +6,7 @@ class Alien(Sprite):
         super(Alien, self).__init__()
         self.screen = screen
         self.ai_settings = ai_settings
-        self.image = pygame.image.load("space-invaders.png")
+        self.image = pygame.image.load("Space-Invaders-Game-master/space-invaders.png")
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height
